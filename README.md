@@ -1,10 +1,11 @@
 # Memristor Emulator
 
 An analog circuit that behaves like a memristor. Its conductance depends on the history of the voltage applied across it, so its current-voltage curve forms a pinched hysteresis loop.
+<img width="589" height="468" alt="Screenshot 2026-11-08 at 3 17 32 PM" src="https://github.com/user-attachments/assets/b53ff098-ec14-4569-a21d-2198775dc57f" />
 
 Built around an AD633 analog multiplier and TL082 op-amps. Designed in KiCad, simulated in LTspice, measured on an FNIRSI 1014D oscilloscope.
 
-![Pinched hysteresis loop](docs/expected_loop_ideal_model.png)
+<img width="634" height="455" alt="Screenshot 2026-11-08 at 3 16 46 PM" src="https://github.com/user-attachments/assets/11947586-856b-47f2-98b0-8f07ee559775" />
 
 ## How it works
 
