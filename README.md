@@ -38,8 +38,6 @@ R2 (1 MΩ) across C1 lets DC leak off so the integrator doesn't drift into satur
 - RV1: multi-turn trimmer to tune the integrator time constant (about 0.5–5.5 ms)
 - Outputs: header J3 (V_BUF, I_SENSE, φ, GND) plus test points
 
-The full parts list is in [`fab/BOM.csv`](fab/BOM.csv).
-
 ## Repo layout
 
 ```
