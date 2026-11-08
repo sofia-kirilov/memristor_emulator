@@ -1,0 +1,22 @@
+Qty,References,Value,Description,Footprint
+1,C1,100nF film,"Film capacitor, 5 mm pitch (C1 integrator - use film, not ceramic)",C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2
+6,C2 C3 C4 C5 C6 C7,100nF,"Ceramic capacitor, 5 mm pitch (decoupling)",C_Disc_D5.0mm_W2.5mm_P5.00mm
+2,C8 C9,10uF 25V,"Electrolytic, 5 mm dia, 2 mm pitch",CP_Radial_D5.0mm_P2.00mm
+1,D1,Red 3mm,3 mm LED,LED_D3.0mm
+2,D2 D3,1N4001,Rectifier diode (reverse-polarity protection),D_DO-41_SOD81_P10.16mm_Horizontal
+1,J1,SIG IN,2.54 mm male header,PinHeader_1x02_P2.54mm_Vertical
+1,J2,PWR +12/GND/-12,"Phoenix MKDS 1,5/3-5,08 screw terminal","TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
+1,J3,SCOPE OUT,2.54 mm male header,PinHeader_1x04_P2.54mm_Vertical
+2,R1 R8,4.7k,Metal film 1/4 W,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+1,R2,1M,Metal film 1/4 W,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+1,R3,1k (Rs),Metal film 1% 1/4 W (sets memristance scale),R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+4,R4 R5 R6 R7,10k 1%,Metal film 1% 1/4 W (difference amp - match these),R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+1,RV1,50k,Bourns 3296W multi-turn trimmer,Potentiometer_Bourns_3296W_Vertical
+1,TP1,VIN,Test point loop (or bent wire loop),TestPoint_Loop_D2.50mm_Drill1.0mm
+1,TP2,PHI,Test point loop (or bent wire loop),TestPoint_Loop_D2.50mm_Drill1.0mm
+1,TP3,VW,Test point loop (or bent wire loop),TestPoint_Loop_D2.50mm_Drill1.0mm
+1,TP4,ISENSE,Test point loop (or bent wire loop),TestPoint_Loop_D2.50mm_Drill1.0mm
+2,TP5 TP6,GND,Test point loop (or bent wire loop),TestPoint_Loop_D2.50mm_Drill1.0mm
+2,U1 U3,TL082,"Dual JFET op-amp, DIP-8 (TL082CP)",DIP-8_W7.62mm_Socket
+1,U2,AD633JN,"Analog multiplier, DIP-8 (AD633JNZ)",DIP-8_W7.62mm_Socket
+3,(sockets),DIP-8 socket,IC sockets for U1 U2 U3,

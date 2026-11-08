@@ -1,0 +1,129 @@
+(kicad_symbol_lib
+  (version 20220914)
+  (generator kicad_symbol_editor)
+  (symbol "AD633"
+    (pin_names (offset 1.016))
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U"
+      (at -7.62 8.89 0)
+      (effects
+        (font (size 1.27 1.27))
+        (justify left)))
+    (property "Value" "AD633"
+      (at 2.54 8.89 0)
+      (effects
+        (font (size 1.27 1.27))
+        (justify left)))
+    (property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+      (at 0 0 0)
+      (effects
+        (font (size 1.27 1.27))
+        hide))
+    (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/AD633.pdf"
+      (at 0 0 0)
+      (effects
+        (font (size 1.27 1.27))
+        hide))
+    (property "ki_keywords" "analog multiplier four-quadrant"
+      (at 0 0 0)
+      (effects
+        (font (size 1.27 1.27))
+        hide))
+    (property "ki_description" "Low-cost four-quadrant analog multiplier, W = (X1-X2)(Y1-Y2)/10V + Z, DIP-8/SOIC-8"
+      (at 0 0 0)
+      (effects
+        (font (size 1.27 1.27))
+        hide))
+    (symbol "AD633_0_1"
+      (rectangle
+        (start -7.62 7.62)
+        (end 7.62 -7.62)
+        (stroke (width 0.254) (type default))
+        (fill (type background)))
+      (circle
+        (center 0 0)
+        (radius 1.524)
+        (stroke (width 0.254) (type default))
+        (fill (type none)))
+      (polyline
+        (pts (xy -1.0776 1.0776) (xy 1.0776 -1.0776))
+        (stroke (width 0.254) (type default))
+        (fill (type none)))
+      (polyline
+        (pts (xy -1.0776 -1.0776) (xy 1.0776 1.0776))
+        (stroke (width 0.254) (type default))
+        (fill (type none))))
+    (symbol "AD633_1_1"
+      (pin input line
+        (at -10.16 5.08 0)
+        (length 2.54)
+        (name "X1"
+          (effects
+            (font (size 1.27 1.27))))
+        (number "1"
+          (effects
+            (font (size 1.27 1.27)))))
+      (pin input line
+        (at -10.16 2.54 0)
+        (length 2.54)
+        (name "X2"
+          (effects
+            (font (size 1.27 1.27))))
+        (number "2"
+          (effects
+            (font (size 1.27 1.27)))))
+      (pin input line
+        (at -10.16 -2.54 0)
+        (length 2.54)
+        (name "Y1"
+          (effects
+            (font (size 1.27 1.27))))
+        (number "3"
+          (effects
+            (font (size 1.27 1.27)))))
+      (pin input line
+        (at -10.16 -5.08 0)
+        (length 2.54)
+        (name "Y2"
+          (effects
+            (font (size 1.27 1.27))))
+        (number "4"
+          (effects
+            (font (size 1.27 1.27)))))
+      (pin power_in line
+        (at 0 -10.16 90)
+        (length 2.54)
+        (name "-VS"
+          (effects
+            (font (size 1.27 1.27))))
+        (number "5"
+          (effects
+            (font (size 1.27 1.27)))))
+      (pin input line
+        (at 10.16 -2.54 180)
+        (length 2.54)
+        (name "Z"
+          (effects
+            (font (size 1.27 1.27))))
+        (number "6"
+          (effects
+            (font (size 1.27 1.27)))))
+      (pin output line
+        (at 10.16 2.54 180)
+        (length 2.54)
+        (name "W"
+          (effects
+            (font (size 1.27 1.27))))
+        (number "7"
+          (effects
+            (font (size 1.27 1.27)))))
+      (pin power_in line
+        (at 0 10.16 270)
+        (length 2.54)
+        (name "+VS"
+          (effects
+            (font (size 1.27 1.27))))
+        (number "8"
+          (effects
+            (font (size 1.27 1.27))))))))
